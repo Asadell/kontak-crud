@@ -16,7 +16,6 @@
             <th>No</th>
             <th>Nama Depan</th>
             <th>Nama Belakang</th>
-            <th>Alamat</th>
             <th>Email</th>
             <th>Aksi</th>
         </tr>
@@ -32,7 +31,6 @@
                 <td><?php echo $row[0] ?></td>
                 <td><?php echo $row[1] ?></td>
                 <td><?php echo $row[2] ?></td>
-                <td><?php echo $row[3] ?></td>
                 <td><?php echo $row[3] ?></td>
                 <td>
                     <a href="editKontakc.php?id=<?php echo $row[0] ?>">Edit</a>
